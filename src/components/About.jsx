@@ -39,19 +39,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Few things about me</p>
+        <h2 className={styles.sectionHeadText}>About.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       I am a Full Stack Java Developer specializing in Spring Boot for backend development and React for frontend. Proficient in HTML, CSS, JavaScript, SQL, and MySQL, I leverage Spring Data JPA and Spring Security for seamless and secure application development. Experienced in Docker for efficient deployment, I bring a well-rounded skill set to deliver robust, scalable, and user-friendly web applications.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -20,6 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import bootstrap from "./tech/bootstrap.png";
+import java from "./tech/java.png";
+import firebase from "./tech/firebase.png";
+import mysql from "./tech/mysql.png";
+import postgresql from "./tech/postgresql.png";
+import postman from "./tech/postman.png";
+import springboot from "./tech/springboot.png";
+import versel from "./tech/versel.png";
+import thymeleaf from "./tech/thymeleaf.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +38,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import mobilecontact from "./mobile-contact-master-home.png";
+import donation from "./donation-home.png";
+import worldwise from "./worldwise-homePage.png";
 
 export {
   logo,
@@ -59,4 +71,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  bootstrap,
+  java,
+  firebase,
+  mysql,
+  postgresql,
+  postman,
+  springboot,
+  thymeleaf,
+  versel,
+  mobilecontact,
+  donation,
+  worldwise,
 };

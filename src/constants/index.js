@@ -4,25 +4,24 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  java,
+  bootstrap,
+  firebase,
+  mysql,
+  postgresql,
+  postman,
+  springboot,
+  thymeleaf,
+  versel,
+  mobilecontact,
+  donation,
+  worldwise,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +41,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Java Developer",
+    icon: mobile,
+  },
+  {
+    title: "Advance Java",
     icon: creator,
   },
 ];
@@ -65,6 +64,10 @@ const technologies = [
     icon: html,
   },
   {
+    name: "Java",
+    icon: java,
+  },
+  {
     name: "CSS 3",
     icon: css,
   },
@@ -73,193 +76,226 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "BootStrap",
+    icon: bootstrap,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Mysql",
+    icon: mysql,
   },
+  // {
+  //   name: "Firebase",
+  //   icon: firebase,
+  // },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
+    name: "SpringBoot",
+    icon: springboot,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
+  // {
+  //   name: "Postgresql",
+  //   icon: postgresql,
+  // },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
+  // {
+  //   name: "Versel",
+  //   icon: versel,
+  // },
   {
-    name: "figma",
-    icon: figma,
+    name: "Docker",
+    icon: docker,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Postman",
+    icon: postman,
+  },
+  {
+    name: "Thymeleaf",
+    icon: thymeleaf,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Java Developer",
+    icon: java,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "February 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Strong Java Fundamentals: Proficient in core Java, including syntax, data types, control structures, and solid understanding of OOP principles.",
+      "Java APIs and Libraries: Familiarity with essential Java SE and EE APIs, using common libraries in development.",
+      "Development Environments (IDEs): Competent in popular Java IDEs like Eclipse, IntelliJ IDEA, or NetBeans for coding and debugging.",
+      "Database Interaction: Experienced with databases, understanding concepts, and using Java to interact (e.g., MySQL, PostgreSQL).",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Frontend Developer",
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "HTML, CSS, JavaScript: Proficient in building the foundation of web applications using HTML for structure, CSS for styling, and JavaScript for interactivity.",
+      "Responsive Design: Implementing responsive design and ensuring cross-browser compatibility.",
+      "Frontend Frameworks: Familiarity with popular frontend frameworks such as React, Angular, or Vue for efficient and scalable development.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Backend Developer",
+    icon: springboot,
+    iconBg: "#383E56",
+    date: "October 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spring Boot Framework: Proficient in utilizing the Spring Boot framework for rapid development of robust and scalable backend applications.",
+      "Java Programming: Strong command of Java programming language for building the logic and functionality of backend systems.",
+      "RESTful API Development: Expertise in designing and implementing RESTful APIs for seamless communication between the frontend and backend components.",
+      "Database Interaction: Experienced with databases, understanding concepts, and using Java to interact (e.g., MySQL, PostgreSQL).",
     ],
   },
-];
-
-const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Advance Java",
+    icon: java,
+    iconBg: "#383E56",
+    date: "October 2022 - Present",
+    points: [
+      "Servlets and JSP: Proficient in developing dynamic web applications using Servlets for server-side logic and JSP for efficient presentation.",
+      "Java Persistence API (JPA): Skilled in using JPA for seamless integration with databases, providing a standardized way to manage relational data.",
+      "Spring Framework: Expertise in advanced Spring features, including dependency injection, aspect-oriented programming, and Spring MVC for building scalable and maintainable applications.",
+      "Web Services (SOAP and REST): Experience in designing and implementing web services using both SOAP and RESTful protocols, facilitating interoperability between different systems.",
+    ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Mobile Contact Master",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mobile Contact Master is a user-friendly tool powered by Spring Boot, helping you easily organize and secure your contacts. With features like sorting and search, it simplifies contact management, ensuring your information is accessible and well-organized.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Thymeleaf",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Springboot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SpringJPA",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SpringSecurity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Restfull API's",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: mobilecontact,
+    source_code_link: "https://github.com/mohitsupolia/Mobile-Contact-Master",
   },
   {
-    name: "Job IT",
+    name: "Donation Webapplication",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Our donation website makes it easy to give back. With a simple interface, you can securely contribute, track your donations, and support causes that matter to you hassle-free",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Thymeleaf",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Springboot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SpringJPA",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SpringSecurity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Restfull API's",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: donation,
+    source_code_link: "https://github.com/mohitsupolia/Donation-Website-Payment-Integration-",
   },
   {
-    name: "Trip Guide",
+    name: "WorldWide Adventure Track",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Explore the world effortlessly with our adventure tracking website. Log your travels, share your stories, and discover exciting new destinations on your personal journey map.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "html",
+        color: "blue-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "API's",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: worldwise,
+    source_code_link: "https://github.com/mohitsupolia/WorldWise-adventure-track",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
